@@ -1,0 +1,57 @@
+public class Docente {
+    private String materia;
+    private byte edad;
+    private String genero;
+    private float notas;
+    private String horario;
+
+    // Constructor
+    public Docente(String materia, byte edad, String genero, float notas, String horario) {
+        this.materia = materia;
+        this.edad = edad;
+        this.genero = genero;
+        this.notas = notas;
+        this.horario = horario;
+    }
+
+    // Getters y Setters
+    public String getMateria() {
+        return materia;
+    }
+
+    public void setMateria(String materia) {
+        this.materia = materia;
+    }
+
+    public byte getEdad() {
+        return edad;
+    }
+
+    public void setEdad(byte edad) {
+        this.edad = edad;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public float getNotas() {
+        return notas;
+    }
+
+    public void setNotas(float notas) {
+        this.notas = notas;
+    }
+
+    public String getHorario() {
+        return horario;
+    }
+
+    public void setHorario(String horario) {
+        this.horario = horario;
+    }
+}
